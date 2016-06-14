@@ -1,3 +1,2 @@
 ## angular ui-router
-###1.放在环境下打开
-###2.涵盖了基本的路由配置，控制器和指令的写法以及相互的通讯
+# 涵盖了基本的路由配置(ui-router)，controller、directive和service的写法以及相互的通讯
