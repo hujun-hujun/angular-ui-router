@@ -1,4 +1,8 @@
-function index($scope,$rootScope){
+function index($scope,$rootScope,apiService){
+    apiService.getInfo('/data/userInfo.json',{'key':'ab1ea2'},'get')
+              .success(function(data){
+                $scope.userInfo = data
+              })
     console.log('index控制器')
     $rootScope.indexArr = ['fsaf','fsaf','kkkk']
 
